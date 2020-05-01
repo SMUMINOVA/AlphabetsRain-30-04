@@ -9,13 +9,18 @@ namespace task
         static int GlobalLength = 21;
         static void Main(string[] args)
         {
-            //Parallel.For(0, 50, Stream);
-            Stream(2);
-            Console.ForegroundColor = ConsoleColor.White;
+            int[] arr = new int[]{6,23,26,7,14,2,4,30,19,5,21,8,9,22,10,11,0,1,13,12,15,24,25,20};
+            Task[] tasks = new Task[24];
+            for(int i = 0; i < 24; i++){
+                tasks[i] = Task.Run(() => Stream(arr[i]));
+                Thread.Sleep(1000);
+            }
+            tasks[0].Wait();
+            Console.ReadKey();
             
         }
         static void Stream(int left){
-            int limit = 7;//new Random().Next(3,7);
+            int limit = new Random().Next(3,7);
             int top = 0;
             int black = top;
             int topLim = (GlobalLength - 5)/limit ;
@@ -85,7 +90,7 @@ namespace task
                     }
                 }
                 
-                Thread.Sleep(700);
+                Thread.Sleep(10000);
                 top = black + new Random().Next(1,limit);
             }
         }
