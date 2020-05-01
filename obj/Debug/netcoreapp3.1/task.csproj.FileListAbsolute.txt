@@ -1,0 +1,13 @@
+/home/sobira/Рабочий стол/c#/task/bin/Debug/netcoreapp3.1/task
+/home/sobira/Рабочий стол/c#/task/bin/Debug/netcoreapp3.1/task.deps.json
+/home/sobira/Рабочий стол/c#/task/bin/Debug/netcoreapp3.1/task.runtimeconfig.json
+/home/sobira/Рабочий стол/c#/task/bin/Debug/netcoreapp3.1/task.runtimeconfig.dev.json
+/home/sobira/Рабочий стол/c#/task/bin/Debug/netcoreapp3.1/task.dll
+/home/sobira/Рабочий стол/c#/task/bin/Debug/netcoreapp3.1/task.pdb
+/home/sobira/Рабочий стол/c#/task/obj/Debug/netcoreapp3.1/task.csprojAssemblyReference.cache
+/home/sobira/Рабочий стол/c#/task/obj/Debug/netcoreapp3.1/task.csproj.CoreCompileInputs.cache
+/home/sobira/Рабочий стол/c#/task/obj/Debug/netcoreapp3.1/task.AssemblyInfoInputs.cache
+/home/sobira/Рабочий стол/c#/task/obj/Debug/netcoreapp3.1/task.AssemblyInfo.cs
+/home/sobira/Рабочий стол/c#/task/obj/Debug/netcoreapp3.1/task.dll
+/home/sobira/Рабочий стол/c#/task/obj/Debug/netcoreapp3.1/task.pdb
+/home/sobira/Рабочий стол/c#/task/obj/Debug/netcoreapp3.1/task.genruntimeconfig.cache
