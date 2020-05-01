@@ -9,9 +9,9 @@ namespace task
         static int GlobalLength = 21;
         static void Main(string[] args)
         {
-            int[] arr = new int[]{6,23,26,7,14,2,4,30,19,5,21,8,9,22,10,11,0,1,13,12,15,24,25,20};
-            Task[] tasks = new Task[24];
-            for(int i = 0; i < 24; i++){
+            int[] arr = new int[]{29,26,35,48,14,68,2,40,30,19,55,  60,21,4,9,71,22,0,59,13,24,63,32,38, 45,  52 };
+            Task[] tasks = new Task[26];
+            for(int i = 0; i < 26; i++){
                 tasks[i] = Task.Run(() => Stream(arr[i]));
                 Thread.Sleep(1000);
             }
@@ -23,7 +23,7 @@ namespace task
             int limit = new Random().Next(3,7);
             int top = 0;
             int black = top;
-            int topLim = (GlobalLength - 3)/limit;//страховка
+            int topLim = (GlobalLength - 5)/limit ;
             while(true){
                 if(top >= limit * topLim ){
                     top = 0;
@@ -90,7 +90,7 @@ namespace task
                     }
                 }
                 
-                Thread.Sleep(10000);
+                Thread.Sleep(8000);
                 top = black + new Random().Next(1,limit);
             }
         }
