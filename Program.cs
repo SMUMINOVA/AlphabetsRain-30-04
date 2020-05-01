@@ -23,7 +23,7 @@ namespace task
             int limit = new Random().Next(3,7);
             int top = 0;
             int black = top;
-            int topLim = (GlobalLength - 5)/limit ;
+            int topLim = (GlobalLength - 3)/limit;//страховка
             while(true){
                 if(top >= limit * topLim ){
                     top = 0;
